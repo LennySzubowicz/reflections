@@ -1,0 +1,9 @@
+How is the staging area different from the working directory and the repository? What value
+do you think it offers?
+
+    The staging area contains files that you intend to include in your next commit.
+    You can incrementally add files to the staging area.
+    This allows you to keep files in your working directory that are not tracked by Git
+    because all files are not automatically included in your commits.
+
+
