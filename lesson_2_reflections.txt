@@ -43,4 +43,10 @@ diagram the way we do?
     commit. Apparently that only shows the additional changes that are needed
     to correct merge conflicts.
 
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+    In many cases the work needed to merge two branches is mechanical,
+    tedious, and therefore prone to human error. As long as there are
+    no merge conflicts, it's an ideal task for automation.
 
