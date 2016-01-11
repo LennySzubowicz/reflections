@@ -6,4 +6,9 @@ do you think it offers?
     This allows you to keep files in your working directory that are not tracked by Git
     because all files are not automatically included in your commits.
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+    You can add the file to the staging area as soon as you have completed a logical
+    change even if you are not ready to commit it yet and you wish to keep working.
+    You can also use the git diff --staged command to review the contents of the
+    staged change before you commit it.
