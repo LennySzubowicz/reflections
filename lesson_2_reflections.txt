@@ -26,4 +26,21 @@ How do the diagrams help you visualize the branch structure?
     The git history is not purely linear. It allows for concurrent branches, which
     each individually have a linear history log. A diagram can help to visualize the
     commits on the various branches and their relationship and reachability to each
-    other. 
+    other.
+
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+    The commit that results from the merge of two branches includes the changes
+    from both branches. Such a merge commit has two parents and two lines of
+    development that diverged from some common ancestor.
+
+    The course mentions that the history shown by git log for a branch with merges
+    will show commits from the branches interleaved according to timestamp. Therefore,
+    adjacent commits in the git log are not necessarily child and parent. The course
+    suggests that git show can be used to show the diff between a commit and its
+    parent. However, the course does not explain the output of git show on a merge
+    commit. Apparently that only shows the additional changes that are needed
+    to correct merge conflicts.
+
+
