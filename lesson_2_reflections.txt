@@ -1,47 +1,48 @@
-How is the staging area different from the working directory and the repository? What value
-do you think it offers?
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
 
-    The staging area contains files that you intend to include in your next commit.
-    You can incrementally add files to the staging area.
-    This allows you to keep files in your working directory that are not tracked by Git
+    The staging area contains files that you intend to include in your next
+    commit. You can incrementally add files to the staging area. This allows
+    you to keep files in your working directory that are not tracked by Git
     because all files are not automatically included in your commits.
 
-How can you use the staging area to make sure you have one commit per logical change?
+How can you use the staging area to make sure you have one commit per logical
+change?
 
-    You can add the file to the staging area as soon as you have completed a logical
-    change even if you are not ready to commit it yet and you wish to keep working.
-    You can also use the git diff --staged command to review the contents of the
-    staged change before you commit it.
+    You can add the file to the staging area as soon as you have completed a
+    logical change even if you are not ready to commit it yet and you wish to
+    keep working. You can also use the git diff --staged command to review the
+    contents of the staged change before you commit it.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
 
     Branches are helpful in keeping development on multiple variants of your
-    project separate. This allows you to make and release bug fixes on a released
-    version of your project while you make functional changes for a new version
-    of your project.
+    project separate. This allows you to make and release bug fixes on a
+    released version of your project while you make functional changes for a
+    new version of your project.
 
 How do the diagrams help you visualize the branch structure?
 
-    The git history is not purely linear. It allows for concurrent branches, which
-    each individually have a linear history log. A diagram can help to visualize the
-    commits on the various branches and their relationship and reachability to each
-    other.
+    The git history is not purely linear. It allows for concurrent branches,
+    which each individually have a linear history log. A diagram can help to
+    visualize the commits on the various branches and their relationship and
+    reachability to each other.
 
-What is the result of merging two branches together? Why do we represent it in the
-diagram the way we do?
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
 
-    The commit that results from the merge of two branches includes the changes
-    from both branches. Such a merge commit has two parents and two lines of
-    development that diverged from some common ancestor.
+    The commit that results from the merge of two branches includes the
+    changes from both branches. Such a merge commit has two parents and two
+    lines of development that diverged from some common ancestor.
 
-    The course mentions that the history shown by git log for a branch with merges
-    will show commits from the branches interleaved according to timestamp. Therefore,
-    adjacent commits in the git log are not necessarily child and parent. The course
-    suggests that git show can be used to show the diff between a commit and its
-    parent. However, the course does not explain the output of git show on a merge
-    commit. Apparently that only shows the additional changes that are needed
-    to correct merge conflicts.
+    The course mentions that the history shown by git log for a branch with
+    merges will show commits from the branches interleaved according to
+    timestamp. Therefore, adjacent commits in the git log are not necessarily
+    child and parent. The course suggests that git show can be used to show
+    the diff between a commit and its parent. However, the course does not
+    explain the output of git show on a merge commit. Apparently that only
+    shows the additional changes that are needed to correct merge conflicts.
 
 What are the pros and cons of Git’s automatic merging vs. always doing
 merges manually?
