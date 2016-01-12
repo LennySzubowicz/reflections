@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    You would want to use a remote repository if multiple people are contributing
+    to that repository or if you expect to contribute from more than one system.
+    Another benefit of a remote repository is that it's an off-site backup.
+    
