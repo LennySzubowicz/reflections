@@ -35,3 +35,12 @@ use one instead of another?
     desire to eventually request acceptance of contributions or changes
     to that source repository on GitHub. You can also clone your forked
     repository to have a local copy of that repository to work on.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Having a local pointer to the last known state of a remote branch
+    makes it possible to check if you have made changes on that branch
+    without having to go and access the remote git repository. It also
+    facilitates fetches and pulls from the remote repository.
+
