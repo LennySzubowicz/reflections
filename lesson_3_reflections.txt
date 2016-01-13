@@ -16,3 +16,22 @@ automatically stay up-to-date with your remote repository?
     remote branches in each. Should git automatically pull all, or some subset?
     The simplest approach is to have you decide when and what you want to pull.
 
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+    A clone is a copy of another git repository. The typical reason to create
+    a clone of a git repository is to obtain a private local copy of a remote
+    repository. You could make any change you wish in your local clone even
+    if you do not have permission to make changes to the remote repository.
+
+    A branch is a diverged sequence of changes that are isolated from some
+    other branches within a given git repository. A branch exists
+    within any type of git repository. You would use a branch to work on a
+    set of changes that you want to keep off to the side for some reason.
+
+    A fork is a remote repository that you can create on GitHub. It's a clone
+    of another repository on GitHub. You would create a fork on GitHub if
+    you do not have permission to write to the source of the fork but
+    desire to eventually request acceptance of contributions or changes
+    to that source repository on GitHub. You can also clone your forked
+    repository to have a local copy of that repository to work on.
