@@ -44,3 +44,21 @@ stored locally?
     without having to go and access the remote git repository. It also
     facilitates fetches and pulls from the remote repository.
 
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+    You could colaborate using shared access to a system that hosts a
+    remote git repository. Each individual would have a their own local
+    clone and would probably want to do their work locally on their own
+    branches in their clones. You would need to use email or some
+    other agreed to communication mechanism to notify reviewers about
+    branches that have been pushed to the remote library. Similarly,
+    reviews would be done via email.
+
+    GitHub provides automation for the notification of pending changes
+    that require review and also provides a mechanism to provide feedback
+    on the pending changes.
+
+
+    do their work on a bYou would then use email, or some other
+    agreed to communication mechanism to request reviews of
