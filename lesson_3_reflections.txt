@@ -59,6 +59,17 @@ and what would be harder?
     that require review and also provides a mechanism to provide feedback
     on the pending changes.
 
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
 
-    do their work on a bYou would then use email, or some other
-    agreed to communication mechanism to request reviews of
+    If you want to take advantage of collaboration using GitHub and the
+    ability to have your pull requests reviewed, then the generally
+    accepted method is to do your work on a branch. This does mean more
+    work for you to merge any concurrent commits from the upstream master
+    into your local branch. Doing work directly on master and merging
+    master is simpler. However, for longer running efforts, it can leave
+    your master in an unstable state. So there are advantages in using
+    branches for more significant changes even if there isn't much
+    collaboration going on.
+
+
